@@ -19,7 +19,7 @@ const NewNoteInput:React.FC<NewNoteInputProps> = ({addNote}) => {
 
     return(
         <div>
-            <input onChange={updateNote} value={note} type="text" name="note" placeholder="note"></input>
+            <input onChange={updateNote} value={note} type="text" name="note" placeholder="Note"></input>
             <button onClick={onAddNoteClick}>Add Note</button>
         </div>
     );
